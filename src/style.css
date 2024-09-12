@@ -1,7 +1,8 @@
 /* Import Lora, Philosopher & Expletus Sans fonts from Google */
 
 * {
-  font-family: "Playwrite NG Modern", cursive, sans-serif;
+  font-family: "Space Mono", cursive, sans-serif;
+  font-weight: 600;
   color: var(--clr1);
   a {
     text-decoration: none;
