@@ -4,102 +4,105 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="src/style.css">
       <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-      <script src="script.js"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-            rel="stylesheet">
-      <title>Vick Codes</title>
+      <title>Victor the Dev</title>
 </head>
 
-<body>
-      <header>
-            <a href="index.html" class="head-name">Vick Codes</a>
-            <nav class="nav">
-                  <div class="svg">&#9776;</div>
-                  <ul class="dropdown">
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#Contact">Contact</a></li>
+<body class="container">
+      <header class="header">
+            <a href="./index.html" class="header-name">&LeftAngleBracket;VickCodes&RightAngleBracket;</a>
+            <nav class="header-nav">
+                  <img src="/src/images/ham-menu.svg" alt="hamburger menu button" width="16" class="header-menu_open">
+                  <img src="/src/images/close-menu.svg" alt="close menu button" width="16" class="header-menu_close">
+                  <ul class="header-dropdown">
+                        <li><a href="#ContactMe">Contact Me</a></li>
+                        <li><a href="#MyServices">My Services</a></li>
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#MyWork">My Work</a></li>
+                        <li><a href="/src/media/cv.pdf" class="header-cv_button">Download CV</a></li>
                   </ul>
-                  <a href="/media/CV.docx" class="nav-button btn">Download CV</a>
             </nav>
       </header>
-      <main>
+      <main class="main">
             <section class="intro section" id="intro">
                   <article>
-                        <p>
-                              Hi, I'm<br><span class="me">Victor Nwafor</span><br>A Web Developer<br>I specialize in
-                              Responsiveness and Speed Optimization.
-                        </p>
-                        <figure class="socmed">
-
-                        </figure>
-                        <div class="buttons">
-                              <a class="cv-button btn" href="/media/CV.docx">Download CV</a>
-                              <a class="contact-button btn" href="#Contact">Contact Me</a>
-                        </div>
+                        <p class="intro-text_one">Hi, I'm</p>
+                        <p class="intro-text_two">Victor Nwafor</p>
+                        <p class="intro-text_three">FRONTEND DEV</p>
+                        <figure><img src="/src/images/victor1.svg" alt="Victor with a broad smile in monotone."
+                                    srcset="" class="intro-hero_image"></figure>
                   </article>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="down-svg">
-                        <g transform="translate(5 8)">
-                              <path fill="#f5f5f5"
-                                    d="M7.707,7.707a1,1,0,0,1-1.414,0l-6-6A1,1,0,0,1,1.707.293L7,5.586,12.293.293a1,1,0,0,1,1.414,1.414Z" />
-                        </g>
-                  </svg>
             </section>
-            <section class="about section" id="About">
-                  <h3>About Me</h3>
+            <section class="services section" id="MyServices">
+                  <h2>WHAT I DO</h2>
+                  <hr>
+                  <article class="services-article">
+                        <h3>Development</h3>
+                        <p>I code and develop websites from the ground up using JavaScript Technologies, such as React
+                              and Node.</p>
+                  </article>
+                  <article class="services-article">
+                        <h3>Web Building and CMS</h3>
+                        <p>I create websites using web builder and CMS technologies like Wix and WordPress.</p>
+                  </article>
+                  <article class="services-article">
+                        <h3>Auditing and Fixing</h3>
+                        <p>I analyze websites for Accessibility and Responsiveness down-scores and offer fixes to them.
+                        </p>
+                  </article>
+                  <button class="button-cta">see my work</button>
             </section>
-            <section class="projects section" id="Projects">
-                  <h3>My Projects</h3>
-                  <p>I have curated my best projects for you to peruse through.</p>
-                  <div class="project-container">
-                        <div class="card1"></div>
-                        <div class="card2"></div>
-                        <div class="card3"></div>
-                        <div class="card4"></div>
-                        <div class="card5"></div>
-                        <div class="card6"></div>
-                  </div>
+            <section class="about-me section" id="AboutMe">
+                  <h2>WHO I AM</h2>
+                  <h3>Web Developer based in Abakaliki, Nigeria.</h3>
+                  <img src="/src/images/victor2.svg" alt="Victor in a peace sign pose.">
+                  <p>So you&apos;re looking for that developer to build that <strong>highly responsive</strong> and
+                        <strong class="bold">accessible</strong> site or app,
+                        then you're on the right page. <br>
+                        With my proven passion and comprehensive skill-set in the use of web technologies, I have been
+                        able to create the fastest, most responsive and highly accessible websites and web-apps to meet
+                        your business and/or personal needs. <br>
+                        Reach out to me, let's discuss bringing your project to life!
+                  </p>
+                  <button class="button-cta">contact me</button>
             </section>
-            <section class="skills section" id="Skills">
-                  <h3>My Skills</h3>
-                  <figure class="img-container">
-                        <img src="/img/javascript.svg" alt="JavaScript">
-                        <img src="/img/tailwindcss.svg" alt="Tailwind">
-                        <img src="/img/bootstrap.svg" alt="Bootstrap">
-                        <img src="/img/cpp.svg" alt="C++">
-                        <img src="/img/python.svg" alt="Python">
-                        <!-- <img src="/img" alt="React"> -->
-                        <!-- <img src="/img/" alt="Node.js"> -->
-                        <!-- <img src="/img/" alt="Angular.js"> -->
-                        <!-- <img src="/img/" alt="Java"> -->
-                        <!-- <img src="/img/" alt="MongoDB"> -->
-                        <!-- <img src="/img/" alt="Vue"> -->
-                  </figure>
-            </section>
-            <section class="contact section" id="Contact">
-                  <h3>Contact Me</h3>
-                  <p>Send me a message, let's bring your beautiful ideas to life</p>
-                  <form action="" class="form">
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name" placeholder="Name">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="Email">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" placeholder="Message"></textarea>
-                        <button class="sub-btn">Submit</button>
-                  </form>
+            <section class="my-work section" id="MyWork">
+                  <h2>My Work</h2>
+                  <h3>A curation of my best projects!</h3>
+                  <article class="my-work_articles">
+                        <p><strong>SkillBridge</strong><br>A holistic app that servers as a companion for the aspiring
+                              21st century Techpreneur. <br><strong>Technologies:</strong> ReactJS,NodeJS.</p>
+                        <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
+                                    src="/src/images/skillbridge.svg" alt="SkillBridge Landing page webshot"></a>
+                  </article>
+                  <article class="my-work_articles">
+                        <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear. <br>
+                              <strong>Technologies:</strong> ReactJS, ExpressJS, NodeJS.</p>
+                        <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
+                                    src="/src/images/slicksneaks.svg" alt="SlickSneaks Landing Page webshot"></a>
+                  </article>
+                  <article class="my-work_articles">
+                        <p><strong>ASCE Nigeria Website</strong><br>The Official homepage of ASCE Nigeria International
+                              Branch. <br><strong>Technologies:</strong> Wordpress, Elementor.</p>
+                        <a target="_blank" href="https://ascenigeria.org"><img src="/src/images/ascenigeria.svg"
+                                    alt="ASCE Nigeria homepage webshot"></a>
+                  </article>
+                  <button class="button-cta">see more</button>
             </section>
       </main>
-      <footer>
+      <footer class="footer" style="background-color: black;">
+            <a href="mailto:dixonsilverofficial@gmail.com">dixonsilverofficial@gmail.com</a>
+            <div class="footer-social_icons">
+                  <a href=""><img src="/src/images/instagram.svg" alt="Instagram Icon"></a>
+                  <a href=""><img src="/src/images/linkedin.svg" alt="Linkedin Icon"></a>
+                  <a href=""><img src="/src/images/github.svg" alt="Github Icon"></a>
+                  <a href=""><img src="/src/images/twitter.svg" alt="Twitter Icon"></a>
+            </div>
       </footer>
 
-      <script defer>
-
-      </script>
+      <script defer src="/src/script.js"></script>
       <noscript>
             Sorry...JavaScript is needed to go ahead.
       </noscript>
