@@ -151,6 +151,11 @@ hr {
    color: var(--Color-2);
 }
 
+.footer-social_icons {
+   display: flex;
+   gap: 2rem;
+}
+
 
 /* Typography */
 
