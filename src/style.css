@@ -74,7 +74,7 @@ hr {
 }
 
 .services {
-   min-height: 35rem;
+   min-height: 25rem;
    background-color: var(--Color-2);
 }
 
@@ -114,6 +114,8 @@ hr {
 
 .my-work_articles {
    margin-bottom: 3rem;
+   max-width: 25rem;
+
 }
 
 .button-cta {
