@@ -7,31 +7,35 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="src/style.css">
       <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
       <title>Victor the Dev</title>
 </head>
 
-<body class="container">
+<body>
       <header class="header">
-            <a href="./index.html" class="header-name">&LeftAngleBracket;VickCodes&RightAngleBracket;</a>
+            <a href="./index.html" class="header-name"><strong>&#60;VickCodes&#62;</strong></a>
             <nav class="header-nav">
-                  <img src="/src/images/ham-menu.svg" alt="hamburger menu button" width="16" class="header-menu_open">
-                  <img src="/src/images/close-menu.svg" alt="close menu button" width="16" class="header-menu_close">
-                  <ul class="header-dropdown">
-                        <li><a href="#ContactMe">Contact Me</a></li>
-                        <li><a href="#MyServices">My Services</a></li>
-                        <li><a href="#AboutMe">About Me</a></li>
-                        <li><a href="#MyWork">My Work</a></li>
-                        <li><a href="/src/media/cv.pdf" class="header-cv_button">Download CV</a></li>
-                  </ul>
+                  <img src="./src/images/ham-menu.svg" alt="hamburger menu button" width="20" class="header-menu_open">
+                  <img src="./src/images/close-menu.svg" alt="close menu button" width="20" class="header-menu_close">
             </nav>
       </header>
+      <ul class="header-dropdown">
+            <li><a href="#ContactMe">Contact Me</a></li>
+            <li><a href="#MyServices">My Services</a></li>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#MyWork">My Work</a></li>
+            <li><a href="./src/media/cv.pdf" class="header-cv_button" target="_blank">Download CV</a></li>
+      </ul>
       <main class="main">
             <section class="intro section" id="intro">
                   <article>
-                        <p class="intro-text_one">Hi, I'm</p>
-                        <p class="intro-text_two">Victor Nwafor</p>
-                        <p class="intro-text_three">FRONTEND DEV</p>
-                        <figure><img src="/src/images/victor1.svg" alt="Victor with a broad smile in monotone."
+                        <p class="intro-text">Hi, I'm</p>
+                        <p class="intro-text" style="font-size: 1.5rem;"><strong>Victor Nwafor</strong></p><br>
+                        <p class="intro-text" style="color: #D01414; font-size: 1.5rem;"><strong>FRONTEND DEV</strong></p>
+                        <figure><img src="./src/images/victor1.svg" alt="Victor with a broad smile in monotone."
                                     srcset="" class="intro-hero_image"></figure>
                   </article>
             </section>
@@ -52,57 +56,58 @@
                         <p>I analyze websites for Accessibility and Responsiveness down-scores and offer fixes to them.
                         </p>
                   </article>
-                  <button class="button-cta">see my work</button>
+                  <a href="#MyWork" class="button-cta">see my work</a>
             </section>
             <section class="about-me section" id="AboutMe">
                   <h2>WHO I AM</h2>
                   <h3>Web Developer based in Abakaliki, Nigeria.</h3>
-                  <img src="/src/images/victor2.svg" alt="Victor in a peace sign pose.">
-                  <p>So you&apos;re looking for that developer to build that <strong>highly responsive</strong> and
+                  <img src="./src/images/victor2.svg" alt="Victor in a peace sign pose.">
+                  <p class="about-me_text">So you&apos;re looking for that developer to build that <strong>highly responsive</strong> and
                         <strong class="bold">accessible</strong> site or app,
-                        then you're on the right page. <br>
+                        then you're on the right page. <br><br>
                         With my proven passion and comprehensive skill-set in the use of web technologies, I have been
                         able to create the fastest, most responsive and highly accessible websites and web-apps to meet
-                        your business and/or personal needs. <br>
+                        your business and/or personal needs. <br><br>
                         Reach out to me, let's discuss bringing your project to life!
                   </p>
-                  <button class="button-cta">contact me</button>
+                  <a href="#ContactMe" class="button-cta">contact me</a>
             </section>
             <section class="my-work section" id="MyWork">
                   <h2>My Work</h2>
-                  <h3>A curation of my best projects!</h3>
-                  <article class="my-work_articles">
-                        <p><strong>SkillBridge</strong><br>A holistic app that servers as a companion for the aspiring
-                              21st century Techpreneur. <br><strong>Technologies:</strong> ReactJS,NodeJS.</p>
-                        <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
-                                    src="/src/images/skillbridge.svg" alt="SkillBridge Landing page webshot"></a>
-                  </article>
-                  <article class="my-work_articles">
-                        <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear. <br>
-                              <strong>Technologies:</strong> ReactJS, ExpressJS, NodeJS.</p>
-                        <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
-                                    src="/src/images/slicksneaks.svg" alt="SlickSneaks Landing Page webshot"></a>
-                  </article>
+                  <h3>A curation of my best projects!</h3><br><br>
                   <article class="my-work_articles">
                         <p><strong>ASCE Nigeria Website</strong><br>The Official homepage of ASCE Nigeria International
-                              Branch. <br><strong>Technologies:</strong> Wordpress, Elementor.</p>
-                        <a target="_blank" href="https://ascenigeria.org"><img src="/src/images/ascenigeria.svg"
+                              Branch. <br><br><strong>Technologies:</strong>&nbsp;Wordpress, Elementor.</p>
+                        <a target="_blank" href="https://ascenigeria.org"><img src="./src/images/ascenigeria.svg"
                                     alt="ASCE Nigeria homepage webshot"></a>
                   </article>
-                  <button class="button-cta">see more</button>
+                  <article class="my-work_articles">
+                        <p><strong>SkillBridge</strong><br>A holistic app that servers as a companion for the aspiring
+                              21st century Techpreneur.<br><br><strong>Technologies:</strong>&nbsp;ReactJS,NodeJS.</p>
+                        <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
+                                    src="./src/images/skillbridge.svg" alt="SkillBridge Landing page webshot"></a>
+                  </article>
+                  <article class="my-work_articles">
+                        <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear. <br><br>
+                              <strong>Technologies:</strong>&nbsp;ReactJS, ExpressJS, NodeJS.
+                        </p>
+                        <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
+                                    src="./src/images/slicksneaks.svg" alt="SlickSneaks Landing Page webshot"></a>
+                  </article>
+                  <a href="https://github.com/dixonsilveroff?tab=repositories" class="button-cta">see more</a>
             </section>
       </main>
-      <footer class="footer" style="background-color: black;">
+      <footer class="footer" id="ContactMe">
             <a href="mailto:dixonsilverofficial@gmail.com">dixonsilverofficial@gmail.com</a>
             <div class="footer-social_icons">
-                  <a href=""><img src="/src/images/instagram.svg" alt="Instagram Icon"></a>
-                  <a href=""><img src="/src/images/linkedin.svg" alt="Linkedin Icon"></a>
-                  <a href=""><img src="/src/images/github.svg" alt="Github Icon"></a>
-                  <a href=""><img src="/src/images/twitter.svg" alt="Twitter Icon"></a>
+                  <a href=""><img src="./src/images/instagram.svg" alt="Instagram Icon"></a>
+                  <a href=""><img src="./src/images/linkedin.svg" alt="Linkedin Icon"></a>
+                  <a href=""><img src="./src/images/github.svg" alt="Github Icon"></a>
+                  <a href=""><img src="./src/images/twitter.svg" alt="Twitter Icon"></a>
             </div>
       </footer>
 
-      <script defer src="/src/script.js"></script>
+      <script defer src="./src/script.js"></script>
       <noscript>
             Sorry...JavaScript is needed to go ahead.
       </noscript>
