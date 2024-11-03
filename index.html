@@ -18,11 +18,11 @@
       <header class="header">
             <a href="./index.html" class="header-name"><strong>&#60;VickCodes&#62;</strong></a>
             <nav class="header-nav">
-                  <img src="./src/images/ham-menu.svg" alt="hamburger menu button" width="20" class="header-menu_open">
-                  <img src="./src/images/close-menu.svg" alt="close menu button" width="20" class="header-menu_close">
+                  <button class="header-menu_open" onclick="toggleDropdown()"><img id="dropbtn" src="./src/images/ham-menu.svg" alt="hamburger menu button"
+                              width="20"></button>
             </nav>
       </header>
-      <ul class="header-dropdown">
+      <ul class="header-dropdown" id="myDropdown">
             <li><a href="#ContactMe">Contact Me</a></li>
             <li><a href="#MyServices">My Services</a></li>
             <li><a href="#AboutMe">About Me</a></li>
@@ -34,9 +34,11 @@
                   <article>
                         <p class="intro-text">Hi, I'm</p>
                         <p class="intro-text" style="font-size: 1.5rem;"><strong>Victor Nwafor</strong></p><br>
-                        <p class="intro-text" style="color: #D01414; font-size: 1.5rem;"><strong>FRONTEND DEV</strong></p>
+                        <p class="intro-text" style="color: #D01414; font-size: 1.5rem;"><strong>FRONTEND DEV</strong>
+                        </p>
                         <figure><img src="./src/images/victor1.svg" alt="Victor with a broad smile in monotone."
-                                    srcset="" class="intro-hero_image"></figure>
+                                    srcset="" class="intro-hero_image" width="">
+                        </figure>
                   </article>
             </section>
             <section class="services section" id="MyServices">
@@ -62,7 +64,8 @@
                   <h2>WHO I AM</h2>
                   <h3>Web Developer based in Abakaliki, Nigeria.</h3>
                   <img src="./src/images/victor2.svg" alt="Victor in a peace sign pose.">
-                  <p class="about-me_text">So you&apos;re looking for that developer to build that <strong>highly responsive</strong> and
+                  <p class="about-me_text">So you&apos;re looking for that developer to build that <strong>highly
+                              responsive</strong> and
                         <strong class="bold">accessible</strong> site or app,
                         then you're on the right page. <br><br>
                         With my proven passion and comprehensive skill-set in the use of web technologies, I have been
@@ -77,12 +80,13 @@
                   <h3>A curation of my best projects!</h3><br><br>
                   <article class="my-work_articles">
                         <p><strong>SkillBridge</strong><br>A holistic app that servers as a companion for the aspiring
-                              21st century Techpreneur.<br><br><strong>Technologies:</strong>&nbsp;ReactJS,NodeJS.</p>
+                              21st century Techpreneur.<br><br><strong>Technologies:</strong>&nbsp;ReactJS, NodeJS.</p>
                         <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
                                     src="./src/images/skillbridge.svg" alt="SkillBridge Landing page webshot"></a>
                   </article>
                   <article class="my-work_articles">
-                        <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear. <br><br>
+                        <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear.
+                              <br><br>
                               <strong>Technologies:</strong>&nbsp;ReactJS, ExpressJS, NodeJS.
                         </p>
                         <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
@@ -100,10 +104,14 @@
       <footer class="footer" id="ContactMe">
             <a href="mailto:dixonsilverofficial@gmail.com">dixonsilverofficial@gmail.com</a>
             <div class="footer-social_icons">
-                  <a target="_blank" href="https://www.instagram.com/the.real_victor/"><img src="./src/images/instagram.svg" alt="Instagram Icon"></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/therealvict0r/"><img src="./src/images/linkedin.svg" alt="Linkedin Icon"></a>
-                  <a target="_blank" href="https://github.com/dixonsilveroff"><img src="./src/images/github.svg" alt="Github Icon"></a>
-                  <a target="_blank" href="https://x.com/dixonsilveroff"><img src="./src/images/twitter.svg" alt="Twitter Icon"></a>
+                  <a target="_blank" href="https://www.instagram.com/the.real_victor/"><img
+                              src="./src/images/instagram.svg" alt="Instagram Icon"></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/therealvict0r/"><img
+                              src="./src/images/linkedin.svg" alt="Linkedin Icon"></a>
+                  <a target="_blank" href="https://github.com/dixonsilveroff"><img src="./src/images/github.svg"
+                              alt="Github Icon"></a>
+                  <a target="_blank" href="https://x.com/dixonsilveroff"><img src="./src/images/twitter.svg"
+                              alt="Twitter Icon"></a>
             </div>
       </footer>
 
