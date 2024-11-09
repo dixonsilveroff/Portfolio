@@ -17,7 +17,6 @@
 /* Layout */
 
 body {
-  padding-inline: auto;
   background-color: transparent;
 }
 
@@ -59,6 +58,7 @@ hr {
 .header-dropdown {
   display: none;
   z-index: 1;
+  flex-direction: column;
 }
 
 .header-dropdown li {
@@ -80,8 +80,11 @@ hr {
 
 }
 
-.intro {
+.section {
   min-height: 25rem;
+}
+
+.intro {
   background-color: var(--Color-1);
 }
 
@@ -93,7 +96,6 @@ hr {
 }
 
 .services {
-  min-height: 25rem;
   background-color: var(--Color-2);
 }
 
@@ -108,7 +110,6 @@ hr {
 }
 
 .about-me {
-  min-height: 35rem;
   background-color: var(--Color-1);
 }
 
@@ -117,7 +118,6 @@ hr {
 }
 
 .my-work {
-  min-height: 80rem;
   background-color: var(--Color-2);
 }
 
@@ -134,6 +134,10 @@ hr {
 .my-work_articles {
   margin-bottom: 3rem;
   max-width: 25rem;
+}
+
+div.my-work-article-wrapper {
+  margin-top: 2rem;
 }
 
 .button-cta {
@@ -187,6 +191,19 @@ hr {
   cursor: pointer;
 }
 
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:has(img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Typography */
 
 a {
@@ -204,7 +221,55 @@ h2 {
   color: var(--Color-1);
 }
 
-
 .header:hover main {
   background-color: red;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 900px) {
+  .header-dropdown {
+    margin-inline: auto;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  article.hero-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+  }
+  img.hero-image {
+    width: calc(1.75*216px);
+  }
+  div.hero-text > p {
+    font-size: 2rem !important;
+  }
+  div.service-article-container {
+    display: flex;
+    padding-inline: 8rem;
+    gap: 4rem;
+  }
+  div.about-me-wrapper {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    gap: 10rem;
+  }
+  p.about-me_text, div.about-me-head {
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  img.hero-image2 {
+    width: calc(1.25*230px);
+  }
+  div.my-work-article-wrapper {
+    display: flex;
+    margin-top: 3rem;
+    gap: 4rem;
+  }
 }

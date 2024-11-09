@@ -18,8 +18,8 @@
       <header class="header">
             <a href="./index.html" class="header-name"><strong>&#60;VickCodes&#62;</strong></a>
             <nav class="header-nav">
-                  <button class="header-menu_open" onclick="toggleDropdown()"><img id="dropbtn" src="./src/images/ham-menu.svg" alt="hamburger menu button"
-                              width="20"></button>
+                  <button class="header-menu_open" onclick="toggleDropdown()"><img id="dropbtn"
+                              src="./src/images/ham-menu.svg" alt="hamburger menu button" width="20"></button>
             </nav>
       </header>
       <ul class="header-dropdown" id="myDropdown">
@@ -31,73 +31,96 @@
       </ul>
       <main class="main">
             <section class="intro section" id="intro">
-                  <article>
-                        <p class="intro-text">Hi, I'm</p>
-                        <p class="intro-text" style="font-size: 1.5rem;"><strong>Victor Nwafor</strong></p><br>
-                        <p class="intro-text" style="color: #D01414; font-size: 1.5rem;"><strong>FRONTEND DEV</strong>
-                        </p>
-                        <figure><img src="./src/images/victor1.svg" alt="Victor with a broad smile in monotone."
-                                    srcset="" class="intro-hero_image" width="">
+                  <article class="hero-article">
+                        <div class="hero-text" role="article">
+                              <p class="intro-text">Hi, I'm</p>
+                              <p class="intro-text" style="font-size: 1.5rem;"><strong>Victor Nwafor</strong></p><br>
+                              <p class="intro-text" style="color: #D01414; font-size: 1.5rem;"><strong>FRONTEND
+                                          DEV</strong>
+                              </p>
+                        </div>
+                        <figure>
+                              <img src="./src/images/victor1.webp" alt="Victor with a broad smile in monotone." srcset=""
+                                    class="hero-image" width="216">
                         </figure>
                   </article>
             </section>
-            <section class="services section" id="MyServices">
+            <section class=" services section" id="MyServices">
                   <h2>WHAT I DO</h2>
                   <hr>
-                  <article class="services-article">
-                        <h3>Development</h3>
-                        <p>I code and develop websites from the ground up using JavaScript Technologies, such as React
-                              and Node.</p>
-                  </article>
-                  <article class="services-article">
-                        <h3>Web Building and CMS</h3>
-                        <p>I create websites using web builder and CMS technologies like Wix and WordPress.</p>
-                  </article>
-                  <article class="services-article">
-                        <h3>Auditing and Fixing</h3>
-                        <p>I analyze websites for Accessibility and Responsiveness down-scores and offer fixes to them.
-                        </p>
-                  </article>
+                  <div class="service-article-container" role="article">
+                        <article class="services-article">
+                              <h3>Development</h3>
+                              <p>I code and develop websites from the ground up using JavaScript Technologies,
+                                    such as React
+                                    and Node.</p>
+                        </article>
+                        <article class="services-article">
+                              <h3>Web Building and CMS</h3>
+                              <p>I create websites using web builder and CMS technologies like Wix and WordPress.
+                              </p>
+                        </article>
+                        <article class="services-article">
+                              <h3>Auditing and Fixing</h3>
+                              <p>I analyze websites for Accessibility and Responsiveness down-scores and offer
+                                    fixes to them.
+                              </p>
+                        </article>
+                  </div>
                   <a href="#MyWork" class="button-cta">see my work</a>
             </section>
             <section class="about-me section" id="AboutMe">
-                  <h2>WHO I AM</h2>
-                  <h3>Web Developer based in Abakaliki, Nigeria.</h3>
-                  <img src="./src/images/victor2.svg" alt="Victor in a peace sign pose.">
-                  <p class="about-me_text">So you&apos;re looking for that developer to build that <strong>highly
-                              responsive</strong> and
-                        <strong class="bold">accessible</strong> site or app,
-                        then you're on the right page. <br><br>
-                        With my proven passion and comprehensive skill-set in the use of web technologies, I have been
-                        able to create the fastest, most responsive and highly accessible websites and web-apps to meet
-                        your business and/or personal needs. <br><br>
-                        Reach out to me, let's discuss bringing your project to life!
-                  </p>
+                  <h2>WHO I AM</h2><hr>
+                  <div class="about-me-wrapper" role="article">
+                        <div class="about-me-head" role="article">
+                              <h3>Web Developer based in Abakaliki, Nigeria.</h3>
+                              <figure>
+                                    <img src="./src/images/victor2.webp" alt="Victor in a peace sign pose." width="230"
+                                          class="hero-image2">
+                              </figure>
+                        </div>
+                        <p class="about-me_text">So you&apos;re looking for that developer to build that <strong>highly
+                                    responsive</strong> and
+                              <strong class="bold">accessible</strong> site or app,
+                              then you're on the right page. <br><br>
+                              With my proven passion and comprehensive skill-set in the use of web technologies, I have
+                              been
+                              able to create the fastest, most responsive and highly accessible websites and web-apps to
+                              meet
+                              your business and/or personal needs. <br><br>
+                              Reach out to me, let's discuss bringing your project to life!
+                        </p>
+                  </div>
                   <a href="#ContactMe" class="button-cta">contact me</a>
             </section>
             <section class="my-work section" id="MyWork">
-                  <h2>My Work</h2>
+                  <h2>My Work</h2><hr>
                   <h3>A curation of my best projects!</h3><br><br>
-                  <article class="my-work_articles">
-                        <p><strong>SkillBridge</strong><br>A holistic app that servers as a companion for the aspiring
-                              21st century Techpreneur.<br><br><strong>Technologies:</strong>&nbsp;ReactJS, NodeJS.</p>
-                        <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
-                                    src="./src/images/skillbridge.svg" alt="SkillBridge Landing page webshot"></a>
-                  </article>
-                  <article class="my-work_articles">
-                        <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear.
-                              <br><br>
-                              <strong>Technologies:</strong>&nbsp;ReactJS, ExpressJS, NodeJS.
-                        </p>
-                        <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
-                                    src="./src/images/slicksneaks.svg" alt="SlickSneaks Landing Page webshot"></a>
-                  </article>
-                  <article class="my-work_articles">
-                        <p><strong>ASCE Nigeria Website</strong><br>The Official homepage of ASCE Nigeria International
-                              Branch. <br><br><strong>Technologies:</strong>&nbsp;Wordpress, Elementor.</p>
-                        <a target="_blank" href="https://ascenigeria.org"><img src="./src/images/ascenigeria.svg"
-                                    alt="ASCE Nigeria homepage webshot"></a>
-                  </article>
+                  <div class="my-work-article-wrapper" role="article">
+                        <article class="my-work_articles">
+                              <p><strong>SkillBridge</strong><br>A holistic app that servers as a companion for the
+                                    aspiring
+                                    21st century Techpreneur.<br><br><strong>Technologies:</strong>&nbsp;ReactJS,
+                                    NodeJS.</p>
+                              <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
+                                          src="./src/images/skillbridge.webp" alt="SkillBridge Landing page webshot"></a>
+                        </article>
+                        <article class="my-work_articles">
+                              <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear.
+                                    <br><br>
+                                    <strong>Technologies:</strong>&nbsp;ReactJS, ExpressJS, NodeJS.
+                              </p>
+                              <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
+                                          src="./src/images/slicksneaks.webp" alt="SlickSneaks Landing Page webshot"></a>
+                        </article>
+                        <article class="my-work_articles">
+                              <p><strong>ASCE Nigeria Website</strong><br>The Official homepage of ASCE Nigeria
+                                    International
+                                    Branch. <br><br><strong>Technologies:</strong>&nbsp;Wordpress, Elementor.</p>
+                              <a target="_blank" href="https://ascenigeria.org"><img src="./src/images/ascenigeria.webp"
+                                          alt="ASCE Nigeria homepage webshot"></a>
+                        </article>
+                  </div>
                   <a href="https://github.com/dixonsilveroff?tab=repositories" class="button-cta">see more</a>
             </section>
       </main>
@@ -114,6 +137,13 @@
                               alt="Twitter Icon"></a>
             </div>
       </footer>
+
+      <!-- To-Do 
+            - Enable scroll-driven animation for link navigation
+            - add progress bar
+            - Perform Accessibility and Performance audits.
+            - make navbar sticky when scrolling.
+      -->
 
       <script defer src="./src/script.js"></script>
       <noscript>
