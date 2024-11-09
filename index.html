@@ -20,6 +20,8 @@
             <nav class="header-nav">
                   <button class="header-menu_open" onclick="toggleDropdown()"><img id="dropbtn"
                               src="./src/images/ham-menu.svg" alt="hamburger menu button" width="20"></button>
+                  <button class="header-menu_open" onclick="toggleDropdown()"><img id="dropbtn"
+                              src="./src/images/ham-menu.svg" alt="hamburger menu button" width="20"></button>
             </nav>
       </header>
       <ul class="header-dropdown" id="myDropdown">
@@ -46,8 +48,28 @@
                   </article>
             </section>
             <section class=" services section" id="MyServices">
+            <section class=" services section" id="MyServices">
                   <h2>WHAT I DO</h2>
                   <hr>
+                  <div class="service-article-container" role="article">
+                        <article class="services-article">
+                              <h3>Development</h3>
+                              <p>I code and develop websites from the ground up using JavaScript Technologies,
+                                    such as React
+                                    and Node.</p>
+                        </article>
+                        <article class="services-article">
+                              <h3>Web Building and CMS</h3>
+                              <p>I create websites using web builder and CMS technologies like Wix and WordPress.
+                              </p>
+                        </article>
+                        <article class="services-article">
+                              <h3>Auditing and Fixing</h3>
+                              <p>I analyze websites for Accessibility and Responsiveness down-scores and offer
+                                    fixes to them.
+                              </p>
+                        </article>
+                  </div>
                   <div class="service-article-container" role="article">
                         <article class="services-article">
                               <h3>Development</h3>
@@ -141,6 +163,13 @@
                               alt="Twitter Icon"></a>
             </div>
       </footer>
+
+      <!-- To-Do 
+            - Enable scroll-driven animation for link navigation
+            - add progress bar
+            - Perform Accessibility and Performance audits.
+            - make navbar sticky when scrolling.
+      -->
 
       <!-- To-Do 
             - Enable scroll-driven animation for link navigation
