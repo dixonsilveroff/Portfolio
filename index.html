@@ -20,7 +20,7 @@
             <a href="./index.html" class="header-name"><strong>&#60;VickCodes&#62;</strong></a>
             <nav class="header-nav">
                   <button class="header-menu_open" onclick="toggleDropdown()"><img id="dropbtn"
-                              src="./src/images/ham-menu.svg" alt="hamburger menu button" width="20"></button>
+                              src="./src/images/ham-menu.svg" alt="hamburger menu button" width="25"></button>
             </nav>
       </header>
       <ul class="header-dropdown" id="myDropdown">
@@ -41,10 +41,12 @@
                               </p>
                         </div>
                         <figure>
-                              <img src="./src/images/victor1.webp" alt="Victor with a broad smile in monotone."
-                                    srcset="./src/images/victor1x2.webp 378w,
-                                    ./src/images/victor1.webp 164w,
-                                    " sizes="(max-width:899px) 216px, (min-width: 900px) 380px " class="hero-image" width="216">
+                              <img  src="./src/images/victor1_small.webp" 
+                                    alt="Victor with a broad smile in monotone."
+                                    srcset="./src/images/victor1_small.webp 164w,
+                                            ./src/images/victor1_medium.webp 378w"
+                                    sizes="(min-width: 900px) 200px, 320px"
+                                    class="hero-image" width="160">
                         </figure>
                   </article>
             </section>
@@ -80,7 +82,7 @@
                               <h3>Web Developer based in Abakaliki, Nigeria.</h3>
                               <figure>
                                     <img src="./src/images/victor2.webp" alt="Victor in a peace sign pose." width="230"
-                                          class="hero-image2">
+                                          class="hero-image2" loading="lazy">
                               </figure>
                         </div>
                         <p class="about-me_text">So you&apos;re looking for that developer to build that <strong>highly
@@ -109,7 +111,7 @@
                                     NodeJS.</p>
                               <a target="_blank" href="https://skillbridge-nine.vercel.app/"><img
                                           src="./src/images/skillbridge.webp"
-                                          alt="SkillBridge Landing page webshot"></a>
+                                          alt="SkillBridge Landing page webshot" loading="lazy"></a>
                         </article>
                         <article class="my-work_articles">
                               <p><strong>SlickSneaks</strong><br>An ecommerce app exclusively for the Sneakers footwear.
@@ -118,14 +120,14 @@
                               </p>
                               <a target="_blank" href="https://hng-task-two-tawny.vercel.app/"><img
                                           src="./src/images/slicksneaks.webp"
-                                          alt="SlickSneaks Landing Page webshot"></a>
+                                          alt="SlickSneaks Landing Page webshot" loading="lazy"></a>
                         </article>
                         <article class="my-work_articles">
                               <p><strong>ASCE Nigeria Website</strong><br>The Official homepage of ASCE Nigeria
                                     International
                                     Branch. <br><br><strong>Technologies:</strong>&nbsp;Wordpress, Elementor.</p>
                               <a target="_blank" href="https://ascenigeria.org"><img src="./src/images/ascenigeria.webp"
-                                          alt="ASCE Nigeria homepage webshot"></a>
+                                          alt="ASCE Nigeria homepage webshot" loading="lazy"></a>
                         </article>
                   </div>
                   <a href="https://github.com/dixonsilveroff?tab=repositories" class="button-cta">more projects</a>
@@ -150,6 +152,7 @@
             - add progress bar
             - Perform Accessibility and Performance audits.
             - make navbar sticky when scrolling.
+            - Animate the open and close navbar button.
       -->
 
       <script defer src="./src/script.js"></script>
