@@ -210,6 +210,9 @@ a:has(img) {
   display: flex;
   justify-content: center;
   align-items: center;
+  :hover {
+    opacity: 90%;
+  }
 }
 
 
