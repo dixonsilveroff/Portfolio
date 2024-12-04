@@ -210,6 +210,9 @@ a:has(img) {
   display: flex;
   justify-content: center;
   align-items: center;
+  :hover:focus-visible {
+    opacity: 80%;
+  }
 }
 
 
@@ -228,10 +231,6 @@ h2 {
 .button-cta {
   background-color: var(--Color-3);
   color: var(--Color-1);
-}
-
-.header:hover main {
-  background-color: red;
 }
 
 /* Media Queries */
